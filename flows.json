@@ -1,0 +1,1245 @@
+[
+    {
+        "id": "af11bcae7f02c13a",
+        "type": "tab",
+        "label": "Fluxo 5",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ce62c1a8cc6959e1",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c1bd1af55516d632",
+        "type": "tab",
+        "label": "Fluxo 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "882b0eec9497b880",
+        "type": "telegram bot",
+        "botname": "Victoria",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "bd678d7b436f472a",
+        "type": "telegram bot",
+        "botname": "Victoria",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "7f1a4a5cc90db7e9",
+        "type": "ui_group",
+        "name": "Clique para uma piada!",
+        "tab": "5722892e4c6d09ec",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7cd3b1f4270f879d",
+        "type": "ui_tab",
+        "name": "VAGA",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f08da6e785276a5e",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "55b31fce6c197c78",
+        "type": "ui_group",
+        "name": "Botão de Olá",
+        "tab": "7cd3b1f4270f879d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d08f561ac93c9316",
+        "type": "ui_tab",
+        "name": "simulator",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0c5c116e0c7abed7",
+        "type": "ui_group",
+        "name": "outra",
+        "tab": "bf3a5f4339d03463",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bf3a5f4339d03463",
+        "type": "ui_tab",
+        "name": "outra",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d48d3848e72730cc",
+        "type": "mongodb3",
+        "uri": "mongodb+srv://victoriatiburcio:tiburcio20@cluster0.8migky6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "5722892e4c6d09ec",
+        "type": "ui_tab",
+        "name": "site",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1d19f7a154dfe837",
+        "type": "serial-port",
+        "name": "ARDUINO",
+        "serialport": "/dev/ttyUSB0",
+        "serialbaud": "57600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "22509ceabfb3f4fc",
+        "type": "ui_group",
+        "name": "Vaga de Estacionamento",
+        "tab": "7cd3b1f4270f879d",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9bac7366ff3ceb71",
+        "type": "telegram sender",
+        "z": "af11bcae7f02c13a",
+        "name": "",
+        "bot": "882b0eec9497b880",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 890,
+        "y": 260,
+        "wires": [
+            [
+                "26bd88ad9cc2d2a4"
+            ]
+        ]
+    },
+    {
+        "id": "57a74ad4b5b38de9",
+        "type": "ui_text",
+        "z": "af11bcae7f02c13a",
+        "group": "7f1a4a5cc90db7e9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Vaga Livre",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 810,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "a97ded4f6a7c1415",
+        "type": "mongodb3 in",
+        "z": "af11bcae7f02c13a",
+        "service": "_ext_",
+        "configNode": "d48d3848e72730cc",
+        "name": "Vaga de Estacionamento",
+        "collection": "colecaomoura",
+        "operation": "insert",
+        "x": 890,
+        "y": 640,
+        "wires": [
+            [
+                "268e1ea52339241d"
+            ]
+        ]
+    },
+    {
+        "id": "b8afe186d729708a",
+        "type": "comment",
+        "z": "af11bcae7f02c13a",
+        "name": "Enviar no Telegram",
+        "info": "",
+        "x": 670,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "de26e38890df243c",
+        "type": "comment",
+        "z": "af11bcae7f02c13a",
+        "name": "UI",
+        "info": "",
+        "x": 630,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "57f7946333bb543e",
+        "type": "comment",
+        "z": "af11bcae7f02c13a",
+        "name": "Banco de Dados",
+        "info": "",
+        "x": 660,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "26bd88ad9cc2d2a4",
+        "type": "debug",
+        "z": "af11bcae7f02c13a",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "98039fd260fda09f",
+        "type": "ui_text",
+        "z": "af11bcae7f02c13a",
+        "group": "7f1a4a5cc90db7e9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Vaga Ocupada",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 820,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f0194e0973798bf8",
+        "type": "function",
+        "z": "af11bcae7f02c13a",
+        "name": "function 8",
+        "func": "let ui_msg = {\n    topic: msg.topic,\n    payload: (msg.payload === \"Livre\") ? \"Livre\" : \"Ocupado\"\n};\n\nreturn ui_msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 440,
+        "wires": [
+            [
+                "98039fd260fda09f",
+                "57a74ad4b5b38de9"
+            ]
+        ]
+    },
+    {
+        "id": "503e8c0b9e1153ed",
+        "type": "serial in",
+        "z": "af11bcae7f02c13a",
+        "name": "",
+        "serial": "1d19f7a154dfe837",
+        "x": 80,
+        "y": 440,
+        "wires": [
+            [
+                "51b4a38e59d8913e"
+            ]
+        ]
+    },
+    {
+        "id": "51b4a38e59d8913e",
+        "type": "function",
+        "z": "af11bcae7f02c13a",
+        "name": "function 9",
+        "func": "let [identificador, estado] = msg.payload.split(\":\");\nestado = estado.trim();\n\n// Estruturar a mensagem para as próximas etapas\nmsg.topic = identificador; // \"Vaga1\" ou \"Vaga2\"\nmsg.payload = estado === \"1\" ? \"Livre\" : \"Ocupada\";\n\nreturn msg; // Passa a mensagem reestruturada para os próximos nós\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 440,
+        "wires": [
+            [
+                "f0194e0973798bf8",
+                "dcd414d5340baf63",
+                "ca6295a94d255734",
+                "f40ff95f37c36783"
+            ]
+        ]
+    },
+    {
+        "id": "268e1ea52339241d",
+        "type": "debug",
+        "z": "af11bcae7f02c13a",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "dcd414d5340baf63",
+        "type": "function",
+        "z": "af11bcae7f02c13a",
+        "name": "function 10",
+        "func": "// function 10: Criar mensagem para o Telegram\nlet telegramMsg = {\n    payload: {\n        chatId: \"2049612202\",\n        type: \"message\",\n        content: `${msg.topic} está ${msg.payload}`\n    }\n};\n\nreturn telegramMsg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 260,
+        "wires": [
+            [
+                "9bac7366ff3ceb71"
+            ]
+        ]
+    },
+    {
+        "id": "ca6295a94d255734",
+        "type": "function",
+        "z": "af11bcae7f02c13a",
+        "name": "function 11",
+        "func": "// function 11: Preparar mensagem para o MongoDB\nlet dbMsg = {\n    payload: {\n        vaga: msg.topic,\n        estado: msg.payload,\n        timestamp: new Date()\n    }\n};\n\nreturn dbMsg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 640,
+        "wires": [
+            [
+                "a97ded4f6a7c1415"
+            ]
+        ]
+    },
+    {
+        "id": "f40ff95f37c36783",
+        "type": "debug",
+        "z": "af11bcae7f02c13a",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "0eb1b0534903bca3",
+        "type": "inject",
+        "z": "ce62c1a8cc6959e1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "84388d47f631c0c7"
+            ]
+        ]
+    },
+    {
+        "id": "84388d47f631c0c7",
+        "type": "http request",
+        "z": "ce62c1a8cc6959e1",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://v2.jokeapi.dev/joke/Programming",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 400,
+        "y": 160,
+        "wires": [
+            [
+                "9ba0e91e284d5cfd"
+            ]
+        ]
+    },
+    {
+        "id": "9ba0e91e284d5cfd",
+        "type": "debug",
+        "z": "ce62c1a8cc6959e1",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "9225d5dfd46fd602",
+        "type": "ui_button",
+        "z": "ce62c1a8cc6959e1",
+        "name": "",
+        "group": "7f1a4a5cc90db7e9",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "site",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "str",
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "6b2f7743baa89ed0"
+            ]
+        ]
+    },
+    {
+        "id": "6b2f7743baa89ed0",
+        "type": "http request",
+        "z": "ce62c1a8cc6959e1",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://v2.jokeapi.dev/joke/Programming",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 280,
+        "y": 280,
+        "wires": [
+            [
+                "816bc95e5cda5c64"
+            ]
+        ]
+    },
+    {
+        "id": "996f1995b75cf1aa",
+        "type": "ui_text",
+        "z": "ce62c1a8cc6959e1",
+        "group": "7f1a4a5cc90db7e9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Site da Piada",
+        "label": "Piada",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 690,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "816bc95e5cda5c64",
+        "type": "function",
+        "z": "ce62c1a8cc6959e1",
+        "name": "function 12",
+        "func": "var joke = msg.payload.hasOwnProperty(\"joke\") \n \nif(joke == true){ \n    msg.payload = msg.payload.joke \n}else{ \n    msg.payload = msg.payload.setup + \"\\n\" + msg.payload.delivery \n} \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "996f1995b75cf1aa"
+            ]
+        ]
+    },
+    {
+        "id": "3dab2f6bb2973fd4",
+        "type": "inject",
+        "z": "ce62c1a8cc6959e1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"name\":\"Victoria Tiburcio\",\"age\":19,\"colour\":\"Black\"}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 420,
+        "wires": [
+            [
+                "3d8e2523fd28e281"
+            ]
+        ]
+    },
+    {
+        "id": "3d8e2523fd28e281",
+        "type": "http request",
+        "z": "ce62c1a8cc6959e1",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://crudcrud.com/api/6843671ee1bc4e629608d9e696ae8ce2/nome",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 360,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "77cb0f1ce4c37d59",
+        "type": "http request",
+        "z": "ce62c1a8cc6959e1",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://crudcrud.com/api/6843671ee1bc4e629608d9e696ae8ce2/nome",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 360,
+        "y": 540,
+        "wires": [
+            [
+                "db49d834c963e7ab"
+            ]
+        ]
+    },
+    {
+        "id": "532e323091c2ecec",
+        "type": "inject",
+        "z": "ce62c1a8cc6959e1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 540,
+        "wires": [
+            [
+                "77cb0f1ce4c37d59"
+            ]
+        ]
+    },
+    {
+        "id": "db49d834c963e7ab",
+        "type": "debug",
+        "z": "ce62c1a8cc6959e1",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.9.name",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e760836c4e90fc83",
+        "type": "telegram sender",
+        "z": "c1bd1af55516d632",
+        "name": "",
+        "bot": "882b0eec9497b880",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 890,
+        "y": 200,
+        "wires": [
+            [
+                "9cc8cda3410e8c51"
+            ]
+        ]
+    },
+    {
+        "id": "288c84e90ed45148",
+        "type": "mongodb3 in",
+        "z": "c1bd1af55516d632",
+        "service": "_ext_",
+        "configNode": "d48d3848e72730cc",
+        "name": "Vaga de Estacionamento",
+        "collection": "colecaomoura",
+        "operation": "insert",
+        "x": 890,
+        "y": 580,
+        "wires": [
+            [
+                "124cf5ee821a0d2c"
+            ]
+        ]
+    },
+    {
+        "id": "36606b19fd960e26",
+        "type": "comment",
+        "z": "c1bd1af55516d632",
+        "name": "Enviar no Telegram",
+        "info": "",
+        "x": 670,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d5d5c0957146c758",
+        "type": "comment",
+        "z": "c1bd1af55516d632",
+        "name": "UI",
+        "info": "",
+        "x": 630,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "893ec2e47f3e26a1",
+        "type": "comment",
+        "z": "c1bd1af55516d632",
+        "name": "Banco de Dados",
+        "info": "",
+        "x": 660,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "9cc8cda3410e8c51",
+        "type": "debug",
+        "z": "c1bd1af55516d632",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "124cf5ee821a0d2c",
+        "type": "debug",
+        "z": "c1bd1af55516d632",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "3a886fe3458c6b02",
+        "type": "function",
+        "z": "c1bd1af55516d632",
+        "name": "function 15",
+        "func": "// Função que verifica o estado do interruptor e envia uma mensagem para o Telegram\nlet mensagem;\nlet estadoVaga = parseInt(msg.payload, 10); \n\n// Verifica o estado do interruptor\nif (estadoVaga === 0) {\n    mensagem = `A vaga 1 está livre.`;\n} else if (estadoVaga === 1) {\n    mensagem = `A vaga 1 está ocupada.`;\n}\n\n// Retorna a mensagem formatada para o Telegram se algum dos estados foi detectado\nif (mensagem) {\n    return {\n        payload: {\n            chatId: 2049612202, \n            type: 'message',\n            content: mensagem\n        }\n    };\n}\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 200,
+        "wires": [
+            [
+                "e760836c4e90fc83"
+            ]
+        ]
+    },
+    {
+        "id": "dc4c8553ce49497f",
+        "type": "function",
+        "z": "c1bd1af55516d632",
+        "name": "function 16",
+        "func": "let estadoVaga = msg.payload === 1 ? \"Vaga 1 ocupada!\" : \"Vaga 1 livre!\"; \nlet documentoMongoDB = {\n    vaga: msg.topic,\n    estado: estadoVaga,\n    timestamp: new Date() \n};\n\nreturn {payload: documentoMongoDB};\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 580,
+        "wires": [
+            [
+                "288c84e90ed45148"
+            ]
+        ]
+    },
+    {
+        "id": "d54a40fcc0ebd1ee",
+        "type": "debug",
+        "z": "c1bd1af55516d632",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f7f79754b418cd5b",
+        "type": "rpi-gpio in",
+        "z": "c1bd1af55516d632",
+        "name": "",
+        "pin": "26",
+        "intype": "down",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 180,
+        "y": 380,
+        "wires": [
+            [
+                "d54a40fcc0ebd1ee",
+                "3a886fe3458c6b02",
+                "dc4c8553ce49497f",
+                "883c4f7eebaed2c3"
+            ]
+        ]
+    },
+    {
+        "id": "b9c866a3f2d663ac",
+        "type": "ui_text",
+        "z": "c1bd1af55516d632",
+        "group": "22509ceabfb3f4fc",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Vaga 1",
+        "label": "Vaga 1",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 810,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "883c4f7eebaed2c3",
+        "type": "function",
+        "z": "c1bd1af55516d632",
+        "name": "function 17",
+        "func": "// Função 17: Atualiza o status da vaga no dashboard da UI\nlet statusVaga;\nif (msg.payload === 0) {\n    statusVaga = \"Vaga livre!\";\n} else if (msg.payload === 1) {\n    statusVaga = \"Vaga ocupada!\";\n} else {\n    // Se receber qualquer outro valor, não faça nada\n    return null;\n}\n\n// Define a carga útil como o status da vaga\nmsg.payload = statusVaga;\n\n// Retorna a mensagem para atualizar o dashboard UI\nreturn msg;\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 380,
+        "wires": [
+            [
+                "b9c866a3f2d663ac"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a28d722357525a7f",
+        "type": "telegram sender",
+        "z": "c1bd1af55516d632",
+        "name": "",
+        "bot": "882b0eec9497b880",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 870,
+        "y": 820,
+        "wires": [
+            [
+                "e87842d75eb66d21"
+            ]
+        ]
+    },
+    {
+        "id": "310e26b00f60a3bf",
+        "type": "mongodb3 in",
+        "z": "c1bd1af55516d632",
+        "service": "_ext_",
+        "configNode": "d48d3848e72730cc",
+        "name": "Vaga de Estacionamento",
+        "collection": "colecaomoura",
+        "operation": "insert",
+        "x": 870,
+        "y": 1200,
+        "wires": [
+            [
+                "c5a995d64d0375a7"
+            ]
+        ]
+    },
+    {
+        "id": "37fd1b289b3b2879",
+        "type": "comment",
+        "z": "c1bd1af55516d632",
+        "name": "Enviar no Telegram",
+        "info": "",
+        "x": 650,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "4be88dcffd0edc5f",
+        "type": "comment",
+        "z": "c1bd1af55516d632",
+        "name": "UI",
+        "info": "",
+        "x": 610,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "be6d130a39e1c25e",
+        "type": "comment",
+        "z": "c1bd1af55516d632",
+        "name": "Banco de Dados",
+        "info": "",
+        "x": 640,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "e87842d75eb66d21",
+        "type": "debug",
+        "z": "c1bd1af55516d632",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "c5a995d64d0375a7",
+        "type": "debug",
+        "z": "c1bd1af55516d632",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "75dd5c635061bc1b",
+        "type": "function",
+        "z": "c1bd1af55516d632",
+        "name": "function 18",
+        "func": "// Função que verifica o estado do interruptor e envia uma mensagem para o Telegram\nlet mensagem;\nlet estadoVaga = parseInt(msg.payload, 10); \n\n// Verifica o estado do interruptor\nif (estadoVaga === 0) {\n    mensagem = `A vaga 2 está livre.`;\n} else if (estadoVaga === 1) {\n    mensagem = `A vaga 2 está ocupada.`;\n}\n\n// Retorna a mensagem formatada para o Telegram se algum dos estados foi detectado\nif (mensagem) {\n    return {\n        payload: {\n            chatId: 2049612202, // Substitua pelo seu chatId do Telegram\n            type: 'message',\n            content: mensagem\n        }\n    };\n}\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 820,
+        "wires": [
+            [
+                "a28d722357525a7f"
+            ]
+        ]
+    },
+    {
+        "id": "ae5e379d8752d7aa",
+        "type": "function",
+        "z": "c1bd1af55516d632",
+        "name": "function 19",
+        "func": "let estadoVaga = msg.payload === 1 ? \"Vaga 2 ocupada!\" : \"Vaga 2 livre!\"; // Converte 1 para 'ocupada' e 0 para 'livre'\nlet documentoMongoDB = {\n    vaga: msg.topic,\n    estado: estadoVaga,\n    timestamp: new Date() \n};\n\nreturn {payload: documentoMongoDB};\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1200,
+        "wires": [
+            [
+                "310e26b00f60a3bf"
+            ]
+        ]
+    },
+    {
+        "id": "444dc229729dd4da",
+        "type": "debug",
+        "z": "c1bd1af55516d632",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "e3771c1d128f2ea6",
+        "type": "ui_text",
+        "z": "c1bd1af55516d632",
+        "group": "22509ceabfb3f4fc",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Vaga 2",
+        "label": "Vaga 2",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 790,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "3bbe3dd7204d2d3d",
+        "type": "function",
+        "z": "c1bd1af55516d632",
+        "name": "function 20",
+        "func": "let statusVaga;\nif (msg.payload === 0) {\n    statusVaga = \"Vaga livre!\";\n} else if (msg.payload === 1) {\n    statusVaga = \"Vaga ocupada!\";\n} else {\n    // Se receber qualquer outro valor, não faça nada\n    return null;\n}\n\n// Define a carga útil como o status da vaga\nmsg.payload = statusVaga;\n\n// Retorna a mensagem para atualizar o dashboard UI\nreturn msg;\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1000,
+        "wires": [
+            [
+                "e3771c1d128f2ea6"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "58dfd664917f7790",
+        "type": "rpi-gpio in",
+        "z": "c1bd1af55516d632",
+        "name": "",
+        "pin": "5",
+        "intype": "down",
+        "debounce": "26",
+        "read": false,
+        "bcm": true,
+        "x": 160,
+        "y": 1020,
+        "wires": [
+            [
+                "444dc229729dd4da",
+                "75dd5c635061bc1b",
+                "3bbe3dd7204d2d3d",
+                "ae5e379d8752d7aa"
+            ]
+        ]
+    }
+]
