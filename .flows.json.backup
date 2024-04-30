@@ -1,5 +1,13 @@
 [
     {
+        "id": "af11bcae7f02c13a",
+        "type": "tab",
+        "label": "Fluxo 5",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "ce62c1a8cc6959e1",
         "type": "tab",
         "label": "Fluxo 1",
@@ -11,14 +19,6 @@
         "id": "c1bd1af55516d632",
         "type": "tab",
         "label": "Fluxo 2",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "71381abc5c61210c",
-        "type": "tab",
-        "label": "Fluxo 3",
         "disabled": false,
         "info": "",
         "env": []
@@ -273,6 +273,260 @@
         "width": "6",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "9bac7366ff3ceb71",
+        "type": "telegram sender",
+        "z": "af11bcae7f02c13a",
+        "name": "",
+        "bot": "882b0eec9497b880",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 890,
+        "y": 260,
+        "wires": [
+            [
+                "26bd88ad9cc2d2a4"
+            ]
+        ]
+    },
+    {
+        "id": "57a74ad4b5b38de9",
+        "type": "ui_text",
+        "z": "af11bcae7f02c13a",
+        "group": "7f1a4a5cc90db7e9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Vaga Livre",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 810,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "a97ded4f6a7c1415",
+        "type": "mongodb3 in",
+        "z": "af11bcae7f02c13a",
+        "service": "_ext_",
+        "configNode": "d48d3848e72730cc",
+        "name": "Vaga de Estacionamento",
+        "collection": "colecaomoura",
+        "operation": "insert",
+        "x": 890,
+        "y": 640,
+        "wires": [
+            [
+                "268e1ea52339241d"
+            ]
+        ]
+    },
+    {
+        "id": "b8afe186d729708a",
+        "type": "comment",
+        "z": "af11bcae7f02c13a",
+        "name": "Enviar no Telegram",
+        "info": "",
+        "x": 670,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "de26e38890df243c",
+        "type": "comment",
+        "z": "af11bcae7f02c13a",
+        "name": "UI",
+        "info": "",
+        "x": 630,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "57f7946333bb543e",
+        "type": "comment",
+        "z": "af11bcae7f02c13a",
+        "name": "Banco de Dados",
+        "info": "",
+        "x": 660,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "26bd88ad9cc2d2a4",
+        "type": "debug",
+        "z": "af11bcae7f02c13a",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "98039fd260fda09f",
+        "type": "ui_text",
+        "z": "af11bcae7f02c13a",
+        "group": "7f1a4a5cc90db7e9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Vaga Ocupada",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 820,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f0194e0973798bf8",
+        "type": "function",
+        "z": "af11bcae7f02c13a",
+        "name": "function 8",
+        "func": "let ui_msg = {\n    topic: msg.topic,\n    payload: (msg.payload === \"Livre\") ? \"Livre\" : \"Ocupado\"\n};\n\nreturn ui_msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 440,
+        "wires": [
+            [
+                "98039fd260fda09f",
+                "57a74ad4b5b38de9"
+            ]
+        ]
+    },
+    {
+        "id": "503e8c0b9e1153ed",
+        "type": "serial in",
+        "z": "af11bcae7f02c13a",
+        "name": "",
+        "serial": "1d19f7a154dfe837",
+        "x": 80,
+        "y": 440,
+        "wires": [
+            [
+                "51b4a38e59d8913e"
+            ]
+        ]
+    },
+    {
+        "id": "51b4a38e59d8913e",
+        "type": "function",
+        "z": "af11bcae7f02c13a",
+        "name": "function 9",
+        "func": "let [identificador, estado] = msg.payload.split(\":\");\nestado = estado.trim();\n\n// Estruturar a mensagem para as próximas etapas\nmsg.topic = identificador; // \"Vaga1\" ou \"Vaga2\"\nmsg.payload = estado === \"1\" ? \"Livre\" : \"Ocupada\";\n\nreturn msg; // Passa a mensagem reestruturada para os próximos nós\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 440,
+        "wires": [
+            [
+                "f0194e0973798bf8",
+                "dcd414d5340baf63",
+                "ca6295a94d255734",
+                "f40ff95f37c36783"
+            ]
+        ]
+    },
+    {
+        "id": "268e1ea52339241d",
+        "type": "debug",
+        "z": "af11bcae7f02c13a",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "dcd414d5340baf63",
+        "type": "function",
+        "z": "af11bcae7f02c13a",
+        "name": "function 10",
+        "func": "// function 10: Criar mensagem para o Telegram\nlet telegramMsg = {\n    payload: {\n        chatId: \"2049612202\",\n        type: \"message\",\n        content: `${msg.topic} está ${msg.payload}`\n    }\n};\n\nreturn telegramMsg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 260,
+        "wires": [
+            [
+                "9bac7366ff3ceb71"
+            ]
+        ]
+    },
+    {
+        "id": "ca6295a94d255734",
+        "type": "function",
+        "z": "af11bcae7f02c13a",
+        "name": "function 11",
+        "func": "// function 11: Preparar mensagem para o MongoDB\nlet dbMsg = {\n    payload: {\n        vaga: msg.topic,\n        estado: msg.payload,\n        timestamp: new Date()\n    }\n};\n\nreturn dbMsg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 640,
+        "wires": [
+            [
+                "a97ded4f6a7c1415"
+            ]
+        ]
+    },
+    {
+        "id": "f40ff95f37c36783",
+        "type": "debug",
+        "z": "af11bcae7f02c13a",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 380,
+        "wires": []
     },
     {
         "id": "0eb1b0534903bca3",
@@ -987,50 +1241,5 @@
                 "ae5e379d8752d7aa"
             ]
         ]
-    },
-    {
-        "id": "0586e0d8abd0610c",
-        "type": "inject",
-        "z": "71381abc5c61210c",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 60,
-        "wires": [
-            [
-                "dd7fcfdf58a525d5"
-            ]
-        ]
-    },
-    {
-        "id": "dd7fcfdf58a525d5",
-        "type": "debug",
-        "z": "71381abc5c61210c",
-        "name": "debug 17",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 380,
-        "y": 60,
-        "wires": []
     }
 ]
